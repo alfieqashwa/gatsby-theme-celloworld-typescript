@@ -1,0 +1,19 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "alfieqashwa <alfieqashwa@gmail.com> (@alfieqashwa)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop",
+    "devm": "gatsby develop -H 0.0.0.0 -p 8000",
+    "clean": "gatsby clean",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "gatsby": "^2.15.28",
+    "gatsby-theme-celloworld": "^1.0.0",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0"
+  }
+}

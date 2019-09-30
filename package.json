@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-theme-workspace",
+  "name": "gatsby-theme-celloworld-typescript",
   "private": true,
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "yarn workspace example build"
+    "build": "yarn workspace site build"
   },
   "workspaces": [
-    "gatsby-theme-minimal",
-    "example"
+    "gatsby-theme-celloworld",
+    "site"
   ]
 }
